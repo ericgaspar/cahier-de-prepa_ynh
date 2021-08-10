@@ -9,14 +9,14 @@
     "version": "9.2.1~ynh1",
     "url": "https://example.com",
     "upstream": {
-        "license": "free",
+        "license": "cecill",
         "website": "https://cahier-de-prepa.fr/",
         "demo": "https://demo.example.com",
         "admindoc": "https://yunohost.org/packaging_apps",
         "userdoc": "https://cahier-de-prepa.fr/questions",
         "code": "https://some.forge.com/example/example"
     },
-    "license": "free",
+    "license": "cecill",
     "maintainer": {
         "name": "John doe",
         "email": "john.doe@example.com"
