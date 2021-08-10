@@ -93,9 +93,9 @@ cp -a ../sources/extra_files/app/. $final_path
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
-chmod g+w "$final_path/documents"
-chmod g+w "$final_path/sauvegarde"
-chmod g+w "$final_path/rss"
+#chmod g+w "$final_path/documents"
+#chmod g+w "$final_path/sauvegarde"
+#chmod g+w "$final_path/rss"
 
 #=================================================
 # NGINX CONFIGURATION
