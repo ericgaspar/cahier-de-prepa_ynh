@@ -88,12 +88,15 @@ ynh_app_setting_set --app=$app --key=final_path --value=$final_path
 #ynh_setup_source --dest_dir="$final_path"
 mkdir -p $final_path
 cp -a ../sources/extra_files/app/. $final_path
+
 mkdir -p $final_path/documents
 mkdir -p $final_path/sauvegarde
 mkdir -p $final_path/rss
+
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
-chown -R www-data: "$final_path"
+chown -R $app:www-data "$final_path"
+
 chmod g+w "$final_path/documents"
 chmod g+w "$final_path/sauvegarde"
 chmod g+w "$final_path/rss"
@@ -122,7 +125,7 @@ ynh_script_progression --message="Adding a configuration file..." --time --weigh
 ynh_add_config --template="../conf/config.php" --destination="$final_path/config.php"
 
 chmod 400 "$final_path/config.php"
-chown $app:$app "$final_path/config.php"
+chown $app "$final_path/config.php"
 
 #=================================================
 # GENERIC FINALIZATION
