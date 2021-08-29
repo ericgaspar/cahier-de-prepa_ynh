@@ -1,5 +1,5 @@
 {
-    "name": "Cahier de prepa",
+    "name": "Cahier de prépa",
     "id": "cahier-de-prepa",
     "packaging_format": 1,
     "description": {
@@ -36,12 +36,6 @@
                 "name": "domain",
                 "type": "domain",
                 "example": "example.com"
-            },
-            {
-                "name": "path",
-                "type": "path",
-                "example": "/example",
-                "default": "/cahierdeprepa"
             },
             {
                 "name": "is_public",
