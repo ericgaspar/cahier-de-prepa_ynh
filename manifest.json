@@ -1,6 +1,6 @@
 {
     "name": "Cahier de prepa",
-    "id": "cahier-de-prepa",
+    "id": "cahier",
     "packaging_format": 1,
     "description": {
         "en": "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)",
@@ -18,8 +18,8 @@
     },
     "license": "cecill",
     "maintainer": {
-        "name": "John doe",
-        "email": "john.doe@example.com"
+        "name": "",
+        "email": ""
     },
     "requirements": {
         "yunohost": ">= 4.2.4"
