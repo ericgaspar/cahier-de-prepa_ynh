@@ -37,8 +37,8 @@
             {
                 "name": "path",
                 "type": "path",
-                "example": "/example",
-                "default": "/cahierdeprepa"
+                "example": "/cahier",
+                "default": "/cahier"
             },
             {
                 "name": "is_public",
