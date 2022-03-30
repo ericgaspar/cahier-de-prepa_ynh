@@ -20,7 +20,7 @@ $mdp = '__DB_PWD__';
 // Mail administrateur
 // Adresse dont proviendront les mails envoyés par l'interface et où seront
 // redirigées l'ensemble des erreurs
-$mailadmin = 'admin@__DOMAIN__';
+$mailadmin = '__EMAIL__';
 
 // Adresse d'envoi des mails
 // Utilisée pour envoyer les mails en évitant les erreurs de mauvais
