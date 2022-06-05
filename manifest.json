@@ -35,6 +35,12 @@
                 "type": "domain"
             },
             {
+                "name": "path",
+                "type": "path",
+                "example": "/cahier",
+                "default": "/cahier"
+            },
+            {
                 "name": "admin",
                 "type": "user"
             },
