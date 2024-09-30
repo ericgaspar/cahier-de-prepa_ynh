@@ -15,7 +15,7 @@ une fois unique par le script d'installation que vous devez lancer pour
 terminer l'installation. */
 $serveur = 'localhost';
 $base = '__DB_NAME__';
-$mdp = '__DB_PWD__';
+$mdp = '__PASSWORD__';
 
 // Mail administrateur
 // Adresse dont proviendront les mails envoyés par l'interface et où seront
